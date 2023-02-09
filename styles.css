@@ -1,0 +1,279 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    flex-grow: 1;
+    min-height: 100vh;
+    font-family:  Roboto,sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    /* justify-self: flex-end; */
+   
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    /* flex-grow: 1; */
+    background-color: #1f2937;
+    align-items: center;
+    
+    
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 0 128px;
+    color: white;
+    align-items: center;
+    padding: 16px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding: 8px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+/* one */
+
+.one {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #1f2937;
+    flex-grow: 1;
+}
+
+.one-container {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0 128px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#web-image {
+    min-width: 400px;
+    min-height: 300px;
+}
+
+.heading-container {
+    display: flex;
+    flex-grow: 1;
+    width: 256px;
+    color: white;
+    justify-content: center;
+    padding: 16px;
+}
+
+.image{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding: 16px;
+    justify-content: flex-end;
+}
+
+.heading-title {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+.heading-content {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.heading-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 8px 0px;
+}
+
+/* one-end */
+
+
+/* two */
+
+.two {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center ;
+    flex-grow: 1;
+}
+
+.two-container {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 128px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.two-header {
+    display: flex;
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+}
+
+.two-content {
+    display: flex;
+    gap: 16px;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 16px;
+}
+
+
+/* two-end */
+
+/* three start */
+
+.three {
+    display: flex;
+    justify-content: center;      
+    background-color: #e5e7eb;
+    flex-grow: 1;
+    
+}
+
+.three-content {
+    display: flex;
+    /* flex-grow: 1; */
+    flex-direction: column;
+    margin: 0 128px;
+    /* max-width: 1024px; */
+    justify-content: center;
+    padding: 64px;
+
+}
+
+.three-container {
+    display: flex;
+    /* flex-grow: 1; */
+    margin: 0 128px;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/* three-end */
+
+/* four */
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    /* margin: 0 128px; */
+    margin: 16px 0px;
+}
+
+.four-container {
+    display: flex;
+    /* flex-grow: 1; */
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #3882f6;
+    gap: 16px;
+    border-radius: 10px;
+}
+
+.four-content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 16px;
+
+}
+
+.action-button {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 10px;   
+}
+
+.four-content-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* four-end */
+
+/* footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: wheat;
+    padding: 16px;
+    /* flex-grow: 1; */
+}
+ .two, .two {
+    margin: 16px 128px
+}
